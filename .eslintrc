@@ -1,0 +1,15 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "plugins": ["@typescript-eslint", "@stylistic/ts"],
+  "rules": {
+    "@stylistic/ts/no-extra-semi": "error",
+    "@stylistic/ts/quotes": ["error", "double"],
+    "@stylistic/ts/semi": "error",
+    "@stylistic/ts/comma-spacing": "error"
+  }
+}
