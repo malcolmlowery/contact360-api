@@ -1,5 +1,8 @@
+// folders
 node_modules
+.github
+.devcontainer
 dist
-Dockerfile
-docker-compose.yml
+
+// files
 .env
