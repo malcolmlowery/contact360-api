@@ -31,12 +31,13 @@
     "baseUrl": "./src" /* Specify the base directory to resolve non-relative module names. */,
     "paths": {
       "@handlers/*": ["handlers/*"],
+      "@http": ["controllers/http/index"],
       "@controllers/*": ["controllers/*"],
       "@domain/*": ["domain/*"],
       "@entities/*": ["domain/entities/*"],
       "@usecases/*": ["domain/usecases/*"],
       "@gateways/*": ["domain/gateways/*"],
-      "@repos/*": ["domain/repositories/*"]
+      "@repositories/*": ["domain/repositories/*"]
     } /* Specify a set of entries that re-map imports to additional lookup locations. */,
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */
